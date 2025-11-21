@@ -1,0 +1,42 @@
+Performance Test Results - 2025. 11. 21. (금) 20:04:32 KST
+========================================
+
+
+File Size: 1MB
+-------------------
+  Workers: 1 | Time: .011698741s | Throughput: 85.47 MB/s
+  Workers: 2 | Time: .011242814s | Throughput: 88.94 MB/s
+  Workers: 4 | Time: .010937000s | Throughput: 91.43 MB/s
+  Workers: 8 | Time: .010436229s | Throughput: 95.82 MB/s
+
+
+File Size: 5MB
+-------------------
+  Workers: 1 | Time: .029021928s | Throughput: 172.28 MB/s
+  Workers: 2 | Time: .025355305s | Throughput: 197.19 MB/s
+  Workers: 4 | Time: .022370163s | Throughput: 223.51 MB/s
+  Workers: 8 | Time: .020633283s | Throughput: 242.32 MB/s
+
+
+File Size: 10MB
+-------------------
+  Workers: 1 | Time: .049421904s | Throughput: 202.33 MB/s
+  Workers: 2 | Time: .039058322s | Throughput: 256.02 MB/s
+  Workers: 4 | Time: .030970461s | Throughput: 322.88 MB/s
+  Workers: 8 | Time: .031850881s | Throughput: 313.96 MB/s
+
+
+File Size: 50MB
+-------------------
+  Workers: 1 | Time: .226113506s | Throughput: 221.12 MB/s
+  Workers: 2 | Time: .160200912s | Throughput: 312.10 MB/s
+  Workers: 4 | Time: .127026676s | Throughput: 393.61 MB/s
+  Workers: 8 | Time: .116459333s | Throughput: 429.33 MB/s
+
+========================================
+Performance test complete!
+Results saved to: performance_results.txt
+=== Correctness Test ===
+Testing encryption/decryption accuracy...
+✓ Correctness test PASSED
+
