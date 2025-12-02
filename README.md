@@ -318,7 +318,6 @@ crypto_system/
 ├── tests/
 │   └── performance_test.sh # 성능 테스트 스크립트
 ├── Makefile
-├── PROJECT_GUIDE.md        # 상세 개발 가이드
 └── README.md
 ```
 
